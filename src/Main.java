@@ -77,7 +77,6 @@ public class Main {
 			return Stream.empty();
 		
 		// pased max so return 
-		//if(iter >= acc.max || acc.distance >= acc.maxDist)
 		if(iter > acc.max || acc.distance >= acc.maxDist)
 			return Stream.empty();
 		
